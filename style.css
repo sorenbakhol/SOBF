@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'banam';
+    src: url(./fonts/Banam-Regular.woff);
+}
+
+@font-face {
+    font-family: 'dahar';
+    src: url(./fonts/Dahar-Regular.woff);
+}
+
+@font-face {
+    font-family: 'janam';
+    src: url(./fonts/Janam.woff);
+}
+
+@font-face {
+    font-family: 'kulup';
+    src: url(./fonts/Kulup.woff);
+}
+
+@font-face {
+    font-family: 'rehed';
+    src: url(./fonts/Rehed.woff);
+}
+
+@font-face {
+    font-family: 'pahil';
+    src: url(./fonts/Pahil.woff);
+}
+
+@font-face {
+    font-family: 'rosa';
+    src: url(./fonts/rosa.woff);
+}
+
+@font-face {
+    font-family: 'serma';
+    src: url(./fonts/SERMa\ SOBF.ttf);
+}
+
+@font-face {
+    font-family: 'nagam';
+    src: url(./fonts/nagam-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Men';
+    src: url(./fonts/ᱢᱮᱱ-Regular.woff)
+}
+
+
+/* Universal selection start from here! *********************************************** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+/* Nav section start from here ******************************************************** */
+nav {
+    height: 68px;
+}
+
+#sobf-name a{
+    text-decoration: none;
+}
+
+nav div {
+    width: 100%;
+    height: 68px;
+    background-color: #fff;
+    border: 1px solid #00000028;
+    box-shadow: 0 2px 8px #0000001e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99999999;
+}
+
+nav p {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+    color: #707070;
+}
+
+nav p::after {
+    content: 'BETA';
+    font-size: 10px;
+    font-weight: 700;
+    color: #1c8f0dbe;
+    width: auto;
+    height: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+
+    position: relative;
+    top: -12px;
+    left: 4px;
+}
+
+/* Info section start from here! ************************************* */
+.img_slider_main {
+    margin: 0 10px 0 10px;
+    /* border: 1px solid red; */
+    width: auto;
+    overflow-x: hidden;
+}
+
+.img_slider {
+    /* border: 1px solid red; */
+    display: flex;
+    overflow-x: scroll;
+}
+#img img {
+    width: 400px;
+    padding: 0 10px 10px 10px;
+}
+
+
+/* hero section start from here! ************************************ */
+.birth {
+    height: 85vh;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+
+.birth img{
+    width: 290px;
+    /* border: 1px solid #00000033; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px #00000028; */
+    /* align-self: center; */
+}
+.birth-data {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.birth-data p:nth-child(1) {
+    font-family: 'nagam';
+    /* font-size: 100px; */
+    line-height: 26px;
+    /* font-weight: 900; */
+}
+
+#name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'dahar';
+    font-size: 70px;
+    line-height: 45px;
+}
+
+.birth-span {
+    font-family: 'dahar';
+    font-size: 42px;
+}
+.hero {
+    /* border: 1px  solid red; */
+
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.hero a {
+    display: inline-block;
+}
+
+.hero h1 {
+    font-family: 'rosa';
+    font-size: 48px;
+    color: #000000ab;
+}
+
+
+/* master section start from here! **************************************************** */
+.master {
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 400px);
+    gap: 10px;
+}
+
+.inpu {
+    display: flex;
+}
+
+input[type="range"] {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 50px;
+    background-color: #999898;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid red;
+}
+
+/* .inpu input:nth-child(1)::before {
+    content: 'Font Size';
+    color: #000;
+    display: block;
+    position: relative;
+    top: -6px;
+    left: 20px;
+    font-size: 8px;
+    z-index: 999;
+} */
+
+/* input[type="range"]::-moz-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #3264fe;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px;
+    border: none;
+} */
+
+.master div {
+    border: 1px solid #00000033;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #00000028;
+}
+
+.dv div {
+    border: none;
+    box-shadow: none;
+    overflow-y: auto;
+}
+
+.dvd {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dvd h1 {
+    color: #000000be;
+}
+
+.material-symbols-outlined {
+    color: black;
+    position: relative;
+    top: 3px;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' -25,
+        'opsz' 48
+}
+
+.dv p {
+    font-weight: 500;
+    margin: 0 10px 8px 10px;
+    color: #000000be;
+    /* border: 1px solid red; */
+}
+
+.dv textarea {
+    /* font-size: 18px; */
+    width: 100%;
+    height: 78%;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.dv1 textarea {
+    font-family: 'banam';
+}
+
+.dv2 textarea {
+    font-family: 'dahar';
+}
+
+.dv3 textarea {
+    font-family: 'janam';
+}
+
+.dv4 textarea {
+    font-family: 'kulup';
+}
+
+.dv5 textarea {
+    font-family: 'rehed';
+}
+
+.dv6 textarea {
+    font-family: 'pahil';
+}
+
+.dv7 textarea {
+    font-family: 'rosa';
+}
+
+.dv8 textarea {
+    font-family: 'serma';
+}
+.dv9 textarea {
+    font-family: 'nagam';
+}
+.dv10 textarea {
+    font-family: 'Men';
+}
+
+.sec {
+    margin: 50px 10px;
+    padding: 8px 2px;
+    /* border: 1px  solid; */
+    border-left: 5px solid rgb(255, 255, 9);
+    background-color: #70707041;
+}
+
+
+
+/* Footer section start from here! *********************** */
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #77abb8;
+    background-color: #394867;
+    background-color: #0A4D68;
+    background-color: #A6D0DD;
+    background-color: #219F94;
+    background-color: #E7B10A;
+    background-color: #cacaca;
+}
+
+.foot_container {
+    text-align: center;
+}
+
+footer .nav-logo-name p {
+
+    /* border: 1px solid red; */
+    font-size: 22px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    justify-content: center;
+}
+
+footer .nav-logo-name p:after {
+    content: 'BETA';
+    font-size: 6px;
+    font-weight: 700;
+    color: #1c8f0dbe;
+    width: auto;
+    height: auto;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 2px;
+
+    position: relative;
+    top: -1px;
+    left: 4px;
+}
+.foot_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    /* border: 1px solid red; */
+}
+.foot_sub {
+width: 500px;
+height: 100%;
+display: flex;
+justify-content: space-between;
+}
+.foot_left h1, .foot_right h1 {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.foot_links {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.foot_links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    /* color: #f2f2f2c4; */
+    /* color: #BFCCB5; */
+}
+
+.dhr {
+    width: 1px;
+    height: 90%;
+    background-color: #0000001f;
+    align-self: center;
+}
+.d_hr_h {
+    width: 100%;
+    height: 1px;
+    background-color: #0000001f;
+
+    margin: 20px 0px 0px 0px;
+}
+.copy {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+/* @media section start from here! **************************************************** */
+@media screen and (min-width: 0px) and (max-width: 240px) {
+    nav {
+        height: 75px;
+    }
+
+    nav p {
+        font-size: 16px;
+    }
+
+    nav p::after {
+        font-weight: 400;
+        font-size: 6px;
+        border: 1px solid;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    /* Master(Grid) section start from here! ****************************************** */
+    .master {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 300px);
+    }
+}
+
+@media screen and (min-width: 241px) and (max-width: 640px) {
+    
+
+    nav p {
+        font-size: 22px;
+    }
+
+    nav p::after {
+        font-size: 6px;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+
+    /* @media Master(Grid) section start from here! ****************************************** */
+    .master {
+        margin: 0 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 400px);
+    }
+
+    .dv a {
+        font-size: 24px;
+    }
+
+
+    /* about section start  from here! ******************************************************************************** */
+    .alfa,
+    .alfaa {
+        margin: 10px;
+    }
+
+    .birth {
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .birth img{
+        width: 100px;
+        /* position: relative; */
+    }
+    .birth-data p:nth-child(1) {
+        font-size: 9px;
+        line-height: 14px;
+        /* font-weight: 900; */
+        letter-spacing: -1px;
+    }
+    .birth-span {
+        font-family: 'dahar';
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    #name {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .birth-data {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    #sobf {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    .master {
+        margin: 0 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 400px);
+    }
+
+    .master {
+        margin: 0 10px;
+    }
+
+    .dv a {
+        font-size: 24px;
+    }
+
+    .dv p {
+        font-size: 18px;
+    }
+
+    .dv textarea {
+        font-size: 18px;
+    }
+
+    /* about section start  from here! ******************************************************************************** */
+    .alfa,
+    .alfaa {
+        margin: 10px;
+    }
+    .birth {
+        height: 60vh;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .birth img{
+        width: 200px;
+        position: none;
+    }
+    .birth-data p:nth-child(1) {
+        font-size: 14px;
+        line-height: 22px;
+        /* font-weight: 900; */
+        letter-spacing: -1px;
+    }
+    .birth-span {
+        font-family: 'dahar';
+        font-size: 22px;
+    }
+
+    #name {
+        font-size: 32px;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+    .birth-data {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+
+}
+
+@media screen and (min-width: 1008px) and (max-width: 1366px) {
+    .master {
+        margin: 0 10px;
+    }
+
+    .dv textarea {
+        font-size: 48px;
+    }
+
+    .alfa,
+    .alfaa {
+        margin: 10px;
+    }
+
+    .foot_main {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-evenly;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {}
