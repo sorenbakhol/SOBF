@@ -523,6 +523,16 @@ justify-content: space-between;
         font-size: 11px;
     }
 
+    .foot_left h1, .foot_right h1 {
+        font-size: 12px;
+    }
+
+    .foot_sub {
+        /* border: 1px solid red; */
+        margin: 0 20px;
+        font-size: 6px;
+    }
+
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007px) {
