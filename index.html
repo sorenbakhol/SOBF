@@ -19,7 +19,7 @@
     <header>
         <nav>
             <div id="sobf-name">
-                <a href="./index"><p>soren bakhol fonts</p></a>
+                <a href="./index.html"><p>soren bakhol fonts</p></a>
             </div>
         </nav>
     </header>
@@ -63,7 +63,7 @@
                         <input id="banamSpace" type="range" value="" min="1" max="50">
                         <input id="banamLine" type="range" value="" min="1" max="500">
                     </div>
-                    <a href="./info/banam"><span class="material-symbols-outlined">info</span></a>
+                    <a href="./info/banam.html"><span class="material-symbols-outlined">info</span></a>
                 </div>
                 <p><abbr title="Jyada socho mat apun hi h 😂">Name of Designer</abbr></p>
                 <textarea name="" id="banamTextArea" cols="30" rows="10" placeholder="Jahanag ol me"></textarea>
@@ -75,14 +75,14 @@
                 <div class="dvd">
                     <h1>Pahil</h1>
                     <div class="inpu">
-                        <input id="bitSlider" type="range" value="" min="8" max="78">
-                        <input id="bitSpace" type="range" value="" min="1" max="50">
-                        <input id="bitLine" type="range" value="1" min="1" max="500">
+                        <input id="pahilSlider" type="range" value="" min="8" max="78">
+                        <input id="pahilSpace" type="range" value="" min="1" max="50">
+                        <input id="pahilLine" type="range" value="1" min="1" max="500">
                     </div>
                     <a href="./info/Pahil.html"><span class="material-symbols-outlined">info</span></a>
                 </div>
                 <p><abbr title="Jyada socho mat apun hi h 😂">Name of Designer</abbr></p>
-                <textarea name="" id="bitTextArea" cols="30" rows="10" placeholder="Jahanag ol me"></textarea>
+                <textarea name="" id="pahilTextArea" cols="30" rows="10" placeholder="Jahanag ol me"></textarea>
             </div>
 
 
@@ -187,14 +187,14 @@
                 <div class="dvd">
                     <h1>Nagam</h1>
                     <div class="inpu">
-                        <input id="monoSlider" type="range" value="" min="8" max="78">
-                        <input id="monoSpace" type="range" value="" min="1" max="50">
-                        <input id="monoLine" type="range" value="1" min="1" max="500">
+                        <input id="nagamSlider" type="range" value="" min="8" max="78">
+                        <input id="nagamSpace" type="range" value="" min="1" max="50">
+                        <input id="nagamLine" type="range" value="1" min="1" max="500">
                     </div>
                     <a href="./info/nagam.html"><span class="material-symbols-outlined">info</span></a>
                 </div>
                 <p><abbr title="Jyada socho mat apun hi h 😂">Name of Designer</abbr></p>
-                <textarea name="" id="monoTextArea" cols="30" rows="10" placeholder="Jahanag ol me..."></textarea>
+                <textarea name="" id="nagamTextArea" cols="30" rows="10" placeholder="Jahanag ol me..."></textarea>
             </div>
 
 
@@ -308,20 +308,20 @@
         }
 
 
-        // for Bit script start from here! ***************************************************
-        bitSlider.oninput = changeBitFontSize;
-        function changeBitFontSize() {
-            bitTextArea.style.fontSize = this.value + "px"
+        // for Pahil script start from here! ***************************************************
+        pahilSlider.oninput = changePahilFontSize;
+        function changePahilFontSize() {
+            pahilTextArea.style.fontSize = this.value + "px"
         }
 
-        bitSpace.oninput = changeBitFontSpace;
-        function changeBitFontSpace() {
-            bitTextArea.style.letterSpacing = this.value + "px"
+        pahilSpace.oninput = changePahilFontSpace;
+        function changePahilFontSpace() {
+            pahilTextArea.style.letterSpacing = this.value + "px"
         }
 
-        bitLine.oninput = changeBitFontLine;
-        function changeBitFontLine() {
-            bitTextArea.style.lineHeight = this.value + "px"
+        pahilLine.oninput = changePahilFontLine;
+        function changePahilFontLine() {
+            pahilTextArea.style.lineHeight = this.value + "px"
         }
 
 
@@ -411,36 +411,36 @@
 
 
         // for Serma script start from here! ***************************************************
-        sermaSlider.oninput = changeSermaFontSize;
-        function changeSermaFontSize() {
-            sermaTextArea.style.fontSize = this.value + "px"
+        // sermaSlider.oninput = changeSermaFontSize;
+        // function changeSermaFontSize() {
+        //     sermaTextArea.style.fontSize = this.value + "px"
+        // }
+
+        // sermaSpace.oninput = changeSermaFontSpace;
+        // function changeSermaFontSpace() {
+        //     sermaTextArea.style.letterSpacing = this.value + "px"
+        // }
+
+        // sermaLine.oninput = changeSermaFontLine;
+        // function changeSermaFontLine() {
+        //     sermaTextArea.style.lineHeight = this.value + "px"
+        // }
+
+
+        // for Nagam script start from here! ***************************************************
+        nagamSlider.oninput = changeNagamFontSize;
+        function changeNagamFontSize() {
+            nagamTextArea.style.fontSize = this.value + "px"
         }
 
-        sermaSpace.oninput = changeSermaFontSpace;
-        function changeSermaFontSpace() {
-            sermaTextArea.style.letterSpacing = this.value + "px"
+        nagamSpace.oninput = changeNagamFontSpace;
+        function changeNagamFontSpace() {
+            nagamTextArea.style.letterSpacing = this.value + "px"
         }
 
-        sermaLine.oninput = changeSermaFontLine;
-        function changeSermaFontLine() {
-            sermaTextArea.style.lineHeight = this.value + "px"
-        }
-
-
-        // for Mono script start from here! ***************************************************
-        monoSlider.oninput = changeMonoFontSize;
-        function changeMonoFontSize() {
-            monoTextArea.style.fontSize = this.value + "px"
-        }
-
-        monoSpace.oninput = changeMonoFontSpace;
-        function changeMonoFontSpace() {
-            monoTextArea.style.letterSpacing = this.value + "px"
-        }
-
-        monoLine.oninput = changeMonoFontLine;
-        function changeMonoFontLine() {
-            monoTextArea.style.lineHeight = this.value + "px"
+        nagamLine.oninput = changeNagamFontLine;
+        function changeNagamFontLine() {
+            nagamTextArea.style.lineHeight = this.value + "px"
         }
 
 
