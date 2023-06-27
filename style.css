@@ -50,6 +50,11 @@
     src: url(./fonts/ᱢᱮᱱ-Regular.woff)
 }
 
+@font-face {
+    font-family: 'nonol';
+    src: url(./fonts/nonol-Regular.woff);
+}
+
 
 /* Universal selection start from here! *********************************************** */
 * {
@@ -310,7 +315,7 @@ input[type="range"] {
 }
 
 .dv8 textarea {
-    font-family: 'serma';
+    font-family: 'nonol';
 }
 .dv9 textarea {
     font-family: 'nagam';
