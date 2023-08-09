@@ -129,6 +129,16 @@ nav p::after {
     padding: 0 10px 10px 10px;
 }
 
+/* ᱡᱮᱜᱮᱛᱟᱹᱨᱤ ᱟᱹᱫᱤᱵᱟᱹᱥᱤ ᱢᱟᱦᱟᱸ */
+.jmaha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jmaha img {
+    width: 300px;
+    margin: 20px 0 35px 0;
+}
 
 /* hero section start from here! ************************************ */
 .birth {
@@ -561,7 +571,9 @@ justify-content: space-between;
     }
 
     .dv textarea {
+        height: 77%;
         font-size: 18px;
+        /* background-color: red; */
     }
 
     /* about section start  from here! ******************************************************************************** */
