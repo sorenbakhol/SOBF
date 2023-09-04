@@ -305,7 +305,6 @@ footer .nav-logo-name p:after {
   text-decoration: underline;
   margin-bottom: 10px;
 }
-
 .foot_links {
   display: flex;
   flex-direction: column;
@@ -342,11 +341,9 @@ footer .nav-logo-name p:after {
   nav {
     height: 75px;
   }
-
   nav p {
     font-size: 16px;
   }
-
   nav p::after {
     font-weight: 400;
     font-size: 6px;
@@ -366,7 +363,6 @@ footer .nav-logo-name p:after {
   nav p {
     font-size: 22px;
   }
-
   nav p::after {
     font-size: 6px;
     border: 1px solid;
