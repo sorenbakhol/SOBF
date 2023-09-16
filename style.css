@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @font-face {
+  font-family: "gulu";
+  src: url(./fonts/gulu-Regular.woff);
+}
+@font-face {
   font-family: "banam";
   src: url(./fonts/Banam-Regular.woff);
 }
@@ -44,7 +48,10 @@
   font-family: "nonol";
   src: url(./fonts/nonol-Regular.woff);
 }
-
+@font-face {
+  font-family: "usara";
+  src: url(./fonts/usara2-Regular.woff);
+}
 /* Universal section */
 * {
   margin: 0;
@@ -145,7 +152,7 @@ nav p::after {
 .master {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 400px);
+  grid-template-rows: repeat(6, 400px);
   gap: 10px;
 }
 .inpu {
@@ -205,6 +212,9 @@ input[type="range"] {
   background-color: transparent;
 }
 
+.dv12 textarea {
+  font-family: "gulu";
+}
 .dv1 textarea {
   font-family: "banam";
 }
@@ -235,6 +245,9 @@ input[type="range"] {
 .dv10 textarea {
   font-family: "men";
 }
+.dv11 textarea {
+  font-family: "usara";
+}
 .hello p {
   color: #fff;
 }
@@ -249,7 +262,7 @@ input[type="range"] {
 #free-visitor {
   margin: 0 10px;
 }
-#free-visitor a{
+#free-visitor a {
   color: #fff;
 }
 
@@ -305,6 +318,7 @@ footer .nav-logo-name p:after {
   text-decoration: underline;
   margin-bottom: 10px;
 }
+
 .foot_links {
   display: flex;
   flex-direction: column;
@@ -341,9 +355,11 @@ footer .nav-logo-name p:after {
   nav {
     height: 75px;
   }
+
   nav p {
     font-size: 16px;
   }
+
   nav p::after {
     font-weight: 400;
     font-size: 6px;
@@ -355,7 +371,7 @@ footer .nav-logo-name p:after {
   /* Master(Grid) section ****************************************** */
   .master {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 300px);
+    grid-template-rows: repeat(12, 300px);
   }
 }
 
@@ -363,6 +379,7 @@ footer .nav-logo-name p:after {
   nav p {
     font-size: 22px;
   }
+
   nav p::after {
     font-size: 6px;
     border: 1px solid;
@@ -373,7 +390,7 @@ footer .nav-logo-name p:after {
   .master {
     margin: 0 10px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 400px);
+    grid-template-rows: repeat(12, 400px);
   }
   .dv a {
     font-size: 24px;
@@ -428,7 +445,7 @@ footer .nav-logo-name p:after {
   .master {
     margin: 0 10px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 400px);
+    grid-template-rows: repeat(12, 400px);
   }
   .master {
     margin: 0 10px;
