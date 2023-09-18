@@ -1,3 +1,19 @@
+// for soren script start from here! ***************************************************
+sorenSlider.oninput = changeSorenFontSize;
+function changeSorenFontSize() {
+  sorenTextArea.style.fontSize = this.value + "px";
+}
+
+sorenSpace.oninput = changeSorenSpace;
+function changeSorenSpace() {
+  sorenTextArea.style.letterSpacing = this.value + "px";
+}
+
+sorenLine.oninput = changeSorenFontLine;
+function changeSorenFontLine() {
+  sorenTextArea.style.lineHeight = this.value + "px";
+}
+
 // for gulu script start from here! ***************************************************
 guluSlider.oninput = changeGuluFontSize;
 function changeGuluFontSize() {
