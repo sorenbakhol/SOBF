@@ -2,60 +2,59 @@
 
 @font-face {
   font-family: "soren";
-  src: url(./fonts/soren-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/Soren.woff);
 }
 @font-face {
   font-family: "gulu";
-  src: url(./fonts/gulu-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Gulu.woff);
 }
 @font-face {
   font-family: "banam";
-  src: url(./fonts/Banam-Regular);
-  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/fonts/Banam-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Banam.woff);
 }
 @font-face {
   font-family: "dahar";
-  src: url(./fonts/Dahar-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Dahar.woff);
 }
 @font-face {
   font-family: "janam";
-  src: url(./fonts/Janam.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Janam.woff);
 }
 @font-face {
   font-family: "kulup";
-  src: url(./fonts/Kulup.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Kulup.woff);
 }
 @font-face {
   font-family: "rehed";
-  src: url(./fonts/Rehed.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Rehed.woff);
 }
 @font-face {
   font-family: "pahil";
-  src: url(./fonts/Pahil.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Pahil.woff);
 }
 @font-face {
   font-family: "rosa";
-  src: url(./fonts/rosa.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Rosa.woff);
 }
 @font-face {
   font-family: "serma";
-  src: url(./fonts/SERMa\ SOBF.ttf);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Serma.woff);
 }
 @font-face {
   font-family: "nagam";
-  src: url(./fonts/nagam-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Nagam.woff);
 }
 @font-face {
   font-family: "men";
-  src: url(./fonts/ᱢᱮᱱ-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Men.woff);
 }
 @font-face {
   font-family: "nonol";
-  src: url(./fonts/nonol-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Nonol.woff);
 }
 @font-face {
   font-family: "usara";
-  src: url(./fonts/usara2-Regular.woff);
+  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/f/Usara.woff);
 }
 /* Universal section */
 * {
