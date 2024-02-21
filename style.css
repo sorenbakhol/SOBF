@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: "banam";
-  src: url(https://cdn.jsdelivr.net/gh/sorenbakhol/privat@main/fonts/Banam-Regular.woff);
+  src: url(./fonts/Banam-Regular.woff);
 }
 @font-face {
   font-family: "dahar";
